@@ -19,4 +19,8 @@ export class SingleFruitComponent {
 
 
     @Output()fruitname = new EventEmitter<string>();
+    
+    fruitName(){
+      this.fruitname.emit(this.fruit.name)
+    }
 }

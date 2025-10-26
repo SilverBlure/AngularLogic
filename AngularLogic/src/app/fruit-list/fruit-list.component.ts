@@ -66,4 +66,8 @@ export class FruitListComponent {
     },
   ]
 
+
+  nameLog(name:string){
+    console.log(name);
+  }
 }
